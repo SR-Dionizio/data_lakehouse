@@ -18,7 +18,7 @@ resource "aws_db_instance" "postgres" {
   allocated_storage       = 20
   max_allocated_storage   = 25
   storage_type            = "gp2"
-  db_name                 = "crm_taipy"
+  db_name                 = "crm-taipy"
   username                = var.db_username
   password                = var.db_password
   parameter_group_name    = "default.postgres16"
